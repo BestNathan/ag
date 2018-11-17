@@ -1,0 +1,24 @@
+{
+  "name": "ag-ws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ws": "^6.0.1",
+    "chalk": "^2.4.1",
+    "pako": "^1.0.6",
+    "prepack": "^0.2.54",
+    "prettier": "^1.14.3",
+    "vm2": "^3.6.4"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "ws": "^6.1.0"
+  }
+}
