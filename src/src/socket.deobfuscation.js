@@ -1512,6 +1512,25 @@ this["Cube"]["Socket"] = function(i3k) {
                     var C9a = new w9a[Y3a[24]]()[Y3a[25]]();
                     try {
                         var s3a = 2;
+                        while (s3a !== 1) {
+                            switch (s3a) {
+                                case 2:
+                                    (function j8a() {
+                                        var f3a = 2;
+                                        while (f3a !== 5) {
+                                            switch (f3a) {
+                                                case 2:
+                                                    debugger;
+                                                    j8a();
+                                                    f3a = 5;
+                                                    break;
+                                            }
+                                        }
+                                    }());
+                                    s3a = 1;
+                                    break;
+                            }
+                        }
                     } catch (c8a) {}
                     O3a = 26;
                     break;
@@ -4948,9 +4967,7 @@ this["Cube"]["Socket"] = function(i3k) {
             return T7n(this, l7n, f7n, Q7n);
         };
     });
-    P0k = `	
-
-   ᠎             　  `;
+    P0k = "";
     j4a.A5K(j4a.d9a()[37][22]);
     var z9w = j4a.b5K(5, 99);
     H0k = "[" + P0k + j4a.O7w(z9w);
@@ -8940,4 +8957,4 @@ this["Cube"]["Socket"] = function(i3k) {
         i53["writeUnsignedInt"](z53[0]);
         i53["writeUnsignedInt"](z53[1]);
     }, i3k["ResponseBase"] = K4k, i3k["UnknownResp"] = b4k, i3k["CMDByteArray"] = a6k, i3k["WebSocketBase"] = H8k, i3k["WebSocketDynamic"] = E1k, i3k;
-}({});
+}({})

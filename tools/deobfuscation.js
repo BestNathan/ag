@@ -4,7 +4,7 @@ const {VM} = require('vm2');
 const vm = new VM()
 const filename = process.argv[2];
 const fn = process.argv[3];
-const regexp = /([\w]{3,4})\.([\w]{3})\((\d+)\)/g
+const regexp = /([\w]{3,4})\.([\w]{3,4})\((\d+)\)/g
 
 const jsfile = path.join(process.cwd(), 'src/src', filename + '.js');
 const deofile = path.join(process.cwd(), 'src/src', filename + '.deo.js');
